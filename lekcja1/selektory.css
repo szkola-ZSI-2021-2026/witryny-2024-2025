@@ -1,5 +1,6 @@
 * {
     margin: 10px;
+    background-color: rgb(53, 53, 53);
 }
 
 p {
@@ -14,4 +15,30 @@ div, ul {
 
 em {
     background-color: pink;
+}
+
+li em {
+    font-size: 15px;
+    color: yellow;
+    background-color: black;
+}
+
+.pierwsza {
+    background-color: greenyellow;
+    color: darkgreen;
+}
+
+.druga {
+    font-size: 25px;
+}
+
+.pierwsza.druga {
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid purple;
+    padding: 5px;
+}
+
+#wyjatkowe {
+    color: magenta;
 }
