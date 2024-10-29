@@ -1,0 +1,27 @@
+body {
+    background-color: azure;
+    color: brown;
+}
+
+strong {
+    font-size: 20px;
+    color: red;
+}
+
+em {
+    background-color: yellow;
+    color: orangered;
+}
+
+span {
+    color: navy;
+    font-weight: 400;
+}
+
+h1 {
+    background-color: green;
+}
+
+ul:hover {
+    background-color: chartreuse;
+}
