@@ -1,0 +1,33 @@
+body 
+{
+    background-color: beige;
+    color: brown;
+}
+
+p
+{
+    background-color: aqua;
+}
+
+p, li
+{
+    color: navy;
+}
+
+p 
+{
+    color: green;
+}
+
+.pierwsza
+{
+    background-color: lightgreen;
+    color: darkgreen;      
+}
+
+div
+{
+    background-color: pink;
+    font-weight: bold;
+    color: darkmagenta;
+}
