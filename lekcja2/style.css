@@ -31,3 +31,15 @@ div
     font-weight: bold;
     color: darkmagenta;
 }
+
+#typ1 
+{
+    background-color: yellow;
+    color: black;
+}
+
+#typ1 p 
+{
+    color: black;
+    font-weight: 50;
+}
