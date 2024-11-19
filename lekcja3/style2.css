@@ -1,0 +1,36 @@
+p ,ul
+{
+    border: 2px solid rebeccapurple;
+}
+
+span, li
+{
+    border: 2px solid blue;
+}
+
+ul
+{
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+
+.inline
+{
+    display: inline;
+}
+
+.standard
+{
+    border: 5px solid rebeccapurple;
+    background-color: lightgrey;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+}
+
+.alternatywa
+{
+    box-sizing: border-box;
+}
