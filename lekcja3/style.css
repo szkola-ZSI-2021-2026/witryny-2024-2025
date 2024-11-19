@@ -1,0 +1,40 @@
+body *
+{
+    margin: 5px;
+}
+
+p, div 
+{
+    border: 2px solid red;
+}
+
+.inp1
+{
+    outline: 2px solid brown;
+}
+
+.inp2
+{
+    border-top: 2px solid brown;
+    border-right: 3px dashed red;
+    border-bottom: 4px dotted blue;
+    border-left: 5px double yellow;
+}
+
+.inp3:hover
+{
+    outline: 2px solid brown;
+}
+
+.inp4:hover
+{
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 5px;
+}
+
+.button1:hover
+{
+    border: 2px solid purple;
+}
