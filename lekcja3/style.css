@@ -10,7 +10,9 @@ p, div
 
 .inp1
 {
-    outline: 2px solid brown;
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: green;
 }
 
 .inp2
@@ -34,7 +36,110 @@ p, div
     border-radius: 5px;
 }
 
+.p3 
+{
+    border-top: 5px solid blue;
+}
+
+.d2
+{
+    border-left: 3px dashed red;
+}
+
+.b1
+{
+    border-bottom: 2px solid green;
+    border-right: 2px solid green;
+}
+
+.p4 
+{
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.d3 
+{
+    border: 2px dashed red;
+    padding: 10px 20px 15px 5px;
+}
+
+.b2 
+{
+    border: 1px solid green;
+    padding: 15px;
+} 
+
+.d4 
+{
+    border: 2px solid blue;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.p5 
+{
+    border: 3px solid green;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+}
+
+.d5 
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.d5:focus
+{
+    outline: 3px solid green;
+}
+
+.t3:focus
+{
+    outline: 5px solid red;
+}
+
 .button1:hover
 {
     border: 2px solid purple;
+}
+
+
+.snowman
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border-color: blue;
+    border-width: 5px;
+    padding: 0px;
+    margin: 0px;
+    margin: auto;
+}
+#head
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+#part2
+{
+    width: 150px;
+    height: 150px;
+}
+.snowmanBox
+{
+    width: 250px;
+}
+.snowmanEye
+{
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    border-color: black;
 }
