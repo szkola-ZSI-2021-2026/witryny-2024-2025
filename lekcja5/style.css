@@ -1,0 +1,27 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fontstyle
+{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+}
+
+p 
+{
+    font-family: "Englebert", sans-serif;
+    font-size: 120%;
+}
+
+#bold
+{
+    font-weight: bold;
+}
+
+#italic
+{
+    font-style: italic;
+    font-weight: bolder;
+}
