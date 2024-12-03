@@ -25,3 +25,115 @@ p
     font-style: italic;
     font-weight: bolder;
 }
+
+#lower
+{
+    text-transform: lowercase;
+}
+
+#upper
+{
+    text-transform: uppercase;
+}
+
+#capitalize
+{
+    text-transform: capitalize;
+}
+
+#under
+{
+    text-decoration: underline;
+}
+
+#over
+{
+    text-decoration: overline;
+}
+
+#through
+{
+    text-decoration: line-through;
+}
+
+#wave-green
+{
+    text-decoration-style: wavy;
+    text-decoration-color: green;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+
+#purple-double
+{
+    text-decoration: underline double purple 5px;
+}
+
+#pink-dashed
+{
+    text-decoration: underline overline dashed rgb(252, 117, 140);
+}
+
+#navy-dotted
+{
+    text-decoration: line-through dotted navy 5px;
+}
+
+#linkNone
+{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+#space
+{
+    line-height: 40px;
+}
+
+#indent
+{
+    text-indent: 50px;
+}
+
+#letters-spacing
+{
+    letter-spacing: 10px;
+}
+
+#word-spacing
+{
+    word-spacing: 40px;
+}
+
+#shadows
+{
+    margin: 50px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(85, 85, 85);
+}
+
+#yellow-shadow
+{
+    text-shadow: 10px 10px 10px yellow;
+}
+
+#green-shadow
+{
+    text-shadow: 8px -8px green;
+}
+
+#blue-shadow
+{
+    text-shadow: -10px 10px 3px blue;
+}
+
+#gray-shadow
+{
+    text-shadow: 0px 5px 5px gray;
+}
+
+#purple-shadow
+{
+    text-shadow: 0px 5px 5px purple;
+}
