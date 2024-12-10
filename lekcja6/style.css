@@ -12,14 +12,17 @@ h1
     text-align: center;
 }
 
-#pierwszaLitera
+dt::first-letter
 {
-
+    font-size: 30px;
+    color: darkorange;
+    font-style: italic;
 }
 
-#pierwszaLinia
+dt::first-line
 {
-
+    font-size: 24px;
+    color: gray;
 }
 
 #link:link
@@ -29,6 +32,46 @@ h1
 
 #visited:visited
 {
-    text-decoration: none;
     color: greenyellow;
+}
+
+#visited:active
+{
+    color: red;
+}
+
+#active:active
+{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#hover:hover
+{
+    color: coral;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#focus:focus
+{
+    color: aqua;
+    text-transform: uppercase;
+}
+
+form
+{
+    text-align: center;
+}
+
+#text:focus, #submit:focus 
+{
+    background-color: red;
+    color: white;
+}
+
+#text:hover, #submit:hover 
+{
+    background-color: darkgray;
 }
