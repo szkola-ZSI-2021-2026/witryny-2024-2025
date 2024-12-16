@@ -1,0 +1,36 @@
+html 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: #BFBFBF;
+}
+
+#banner
+{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#informations
+{
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(85, 85, 85);
+}
+
+h1, h3
+{
+    letter-spacing: 5px;
+}
+
+.s1
+{
+    color: #4CAF50;
+    text-decoration: underline solid;
+    text-transform: uppercase;
+}
+
+.s2 
+{
+    font-weight: bold;
+    color: red;
+}

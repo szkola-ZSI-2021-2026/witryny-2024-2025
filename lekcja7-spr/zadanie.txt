@@ -1,0 +1,94 @@
+strona
+Termin wykonania dzisiaj o 11:17
+•
+Kończy się dzisiaj o 11:17
+Instrukcje
+Wykonaj stronę internetową wg poniższych zasad. Zarówno plik html jak i css nazwisj swoim imieniem i nazwiskiem (nazwisk_imie.html, nazwisko_imie.css 
+
+
+
+
+Cechy witryny
+
+Składa się ze strony o nazwie index.html
+
+Ustawiony język zawartości strony na polski
+
+Jawnie zastosowany właściwy standard kodowania polskich znaków 
+
+Tytuł strony widoczny na karcie przeglądarki: Egzamin INF.03
+
+Arkusz stylów w pliku o nazwie style.css prawidłowo połączony z kodem strony
+
+Podzielona strona na bloki: blok banera i blok informacji
+
+Zawartość banera:
+
+nagłówek pierwszego stopnia o treści: Egzamin INF.03
+
+nagłówek drugiego stopnia o treści: Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz bazami danych
+
+Zawartość bloku informacji:
+
+nagłówek trzeciego stopnia o treści: Zakres egzaminu
+
+lista nieuporządkowana (punktowana) o 5 elementach: 
+
+operacje na bazie danych, 
+
+zawartość witryny internetowej, 
+
+działanie witryny internetowej, 
+
+styl CSS witryny internetowej, 
+
+skrypt połączenia z bazą. 
+
+nagłówek trzeciego stopnia o treści: Forma egzaminu
+
+paragraf o treści: Egzamin składa się z części teoretycznej, obejmującej pytania testowe, oraz części praktycznej, w której uczniowie realizują konkretne zadania programistyczne. Aby zdać, należy uzyskać co najmniej 50% punktów w części teoretycznej i co najmniej 75% w części praktycznej egzaminu.
+
+Styl CSS witryny internetowej
+
+Styl CSS zdefiniowany jest w całości w zewnętrznym pliku o nazwie style.css. Cechy formatowania CSS, działające na stronie:
+
+Domyślne formatowanie dla całej strony 
+
+krój czcionki Verdana
+
+interlinia ustawiona na 1.5
+
+kolor tła #BFBFBF
+
+Dla bloku banera
+
+kolor tła #4CAF50
+
+kolor tekstu white
+
+Dla bloku informacji
+
+kolor tła white
+
+cień bloku o przesunięciu 10px w obu osiach i rozmycia o kolorze rgb(85, 85, 85)
+
+Dla selektora nagłówka pierwszego i trzeciego stopnia
+
+odstępy między literami ustawione na 5px
+
+Dla zielonych wyróżnień w tekście (patrz zdjęcie)
+
+podkreślenie
+
+kolor tekstu #4CAF50
+
+tekst pisany dużymi literami
+
+Dla czerwonych wyróżnień w tekście (patrz zdjęcie)
+
+czcionka pogrubiona
+
+kolor tekstu red
+
+
+DO OCENY ODDAJESZ DWA PLIKI:. html i .CSS
