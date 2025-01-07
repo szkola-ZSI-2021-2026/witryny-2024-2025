@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7.01.2025</title>
+    <style>
+        body {
+            display: inline-flex;
+            flex-wrap: wrap;
+        }
+        .tytol {
+            font-weight: bold;
+            font-size: larger;
+        }
+        .odstep {
+            margin-left: 25px;
+        }
+        div {
+            width: 250px;
+            border: black solid 2px;
+            padding: 10px;
+            border-radius: 15px;
+            margin: 5px;
+        }
+        div:hover {
+            background-color: rgb(249, 249, 239);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p class="main-tytol">
+            <h1>MIN-WIDTH</h1>
+        </p>
+        <p class="opis">
+            <span class="tytol">OPIS</span> <br>
+            Określa minimalną szerokość emelentu.
+        </p>
+        <p class="zastosowanie">
+            <span class="tytol">ZASTOSOWANIE</span> <br>
+            Gdy szerokość elementu jest mniejsza niż wartość ustawiona w min-width, przeglądarka nie zmniejszy szerokości elementu poniżej tej wartości.
+        </p>
+        <p class="przyklady">
+            <span class="tytol">PRZYKŁAD</span> <br>
+            div { <br>
+                <span class="odstep">min-width: 200px;</span> <br>
+            }          
+        </p>
+    </div>
+
+    <div>
+        <p class="main-tytol">
+            <h1>MAX-WIDTH</h1>
+        </p>
+        <p class="opis">
+            <span class="tytol">OPIS</span> <br>
+            Określa minimalną szerokość elementu.
+        </p>
+        <p class="zastosowanie">
+            <span class="tytol">ZASTOSOWANIE</span> <br>
+            Gdy szerokość elementu jest większa niż wartość ustawiona w max-width, przeglądarka nie rozciągnie elementu ponad tę wartość.
+        </p>
+        <p class="przyklady">
+            <span class="tytol">PRZYKŁAD</span> <br>
+            div { <br>
+                <span class="odstep">max-width: 500px;</span> <br>
+            }              
+        </p>
+    </div>
+
+    <div>
+        <p class="main-tytol">
+            <h1>MIN-HEIGHT</h1>
+        </p>
+        <p class="opis">
+            <span class="tytol">OPIS</span> <br>
+            Określa minimalną wysokość elementu.
+        </p>
+        <p class="zastosowanie">
+            <span class="tytol">ZASTOSOWANIE</span> <br>
+            Jeśli zawartość elementu wymaga mniejszej wysokości niż ta ustawiona w min-height, to przeglądarka ustawi wysokość elementu na tę wartość.
+        </p>
+        <p class="przyklady">
+            <span class="tytol">PRZYKŁAD</span> <br>
+            div { <br>
+                <span class="odstep">min-height: 300px;</span> <br>
+            }              
+        </p>
+    </div>
+
+    <div>
+        <p class="main-tytol">
+            <h1>MAX-HEIGHT</h1>
+        </p>
+        <p class="opis">
+            <span class="tytol">OPIS</span> <br>
+            Określa maksymalną wysokość elementu.
+        </p>
+        <p class="zastosowanie">
+            <span class="tytol">ZASTOSOWANIE</span> <br>
+            Gdy wysokość elementu przekroczy wartość ustawioną w max-height, element nie zostanie rozciągnięty powyżej tej wartości.
+        </p>
+        <p class="przyklady">
+            <span class="tytol">PRZYKŁAD</span> <br>
+            div { <br>
+                <span class="odstep">max-height: 600px;</span> <br>
+            }              
+        </p>
+    </div>
+
+    <div>
+        <p class="main-tytol">
+            <h1>MIN-WIDTH</h1>
+        </p>
+        <p class="opis">
+            <span class="tytol">OPIS</span> <br>
+            Określa, co ma się stać, gdy zawartość elementu przekroczy jego rozmiary (szerokość lub wysokość). Może przyjmować różne wartości:
+            <ul>
+                <li><strong>visible</strong> (domyślnie) – zawartość wychodzi poza element, ale nie jest ukryta ani przewijana.</li>
+                <li><strong>hidden</strong> – zawartość wychodzi poza element, ale jest ukryta (nie będzie widoczna).</li>
+                <li><strong>scroll</strong> – zawartość jest przewijalna zarówno w poziomie, jak i w pionie, niezależnie od tego, czy występuje nadmiar zawartości.</li>
+                <li><strong>auto</strong> – pojawiają się paski przewijania tylko wtedy, gdy zawartość wykracza poza rozmiary elementu.</li>
+            </ul>
+        </p>
+        <p class="przyklady">
+            <span class="tytol">PRZYKŁAD</span> <br>
+            div { <br>
+                <span class="odstep">overflow: auto;
+                </span> <br>
+            }              
+        </p>
+    </div>
+</body>
+</html>
