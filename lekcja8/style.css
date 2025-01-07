@@ -1,0 +1,27 @@
+p
+{
+    width: 100px;
+    border: black solid 3px;
+}
+
+#fp
+{
+    border-color: blue;
+    border-width: 5px 3px;
+    /* gd 5 lp3 */
+}
+
+#sp
+{
+    border-color: red blue green yellow;
+}
+
+/* .one
+{
+
+}
+
+.two
+{
+
+} */
