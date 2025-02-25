@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.kontener1 {
+    width: 600px;
+    /* background-color: lightblue; */
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.menu1 {
+    display: inline-block;
+    /* box-sizing: content-box; */
+    width: 75px;
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    margin-left: 4px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.menu1:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.menu1:active {
+    background-color: black;
+    color: white;
+}
+
+p {
+    margin: 20px auto;
+}
