@@ -1,0 +1,39 @@
+div {
+    background-color: red;
+}
+
+p {
+    background-color: green;
+}
+
+li {
+    background-color: lightblue;
+}
+
+span, em {
+    background-color: yellow;
+}
+
+strong {
+    background-color: orange;
+}
+
+.inline {
+    display: inline;
+    padding: 10px;
+}
+
+.block {
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: antiquewhite;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+}
