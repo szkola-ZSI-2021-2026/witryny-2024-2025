@@ -1,0 +1,54 @@
+span
+{
+    color: darkturquoise;
+}
+
+.s1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    letter-spacing: 1px;
+}
+
+.p2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+
+.s2
+{
+    color: darkturquoise;
+    font-weight: normal;
+}
+
+.p3 
+{
+    font-size: large;
+}
+
+.bilardy
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24pt;
+    text-shadow: 1px 1px 3px black;
+}
+
+.rozwiniecie
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(100, 100, 100);
+}
+
+.podpis
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(100, 100, 100);
+    text-align: right;
+    font-style: italic;
+}
