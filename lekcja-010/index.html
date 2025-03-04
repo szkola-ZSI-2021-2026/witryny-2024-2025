@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="container">
         <h1>
             Prezentacja właściwości <span>position:static</span>
         </h1>
@@ -20,21 +21,21 @@
             Jeśli szerokość elementów została określona i jeśli dwa kolejne elementy zmieszczą się obo siebie to i tak nie zostaną wyświetlone obok siebie
         </p>
 
-        <div>
+        <div class="basic one">
             Element 1
         </div>
-        <div>
+        <div class="basic two">
             Element 2
         </div>
-        <div>
+        <div class="basic three">
             Element 3
         </div>
 
         <h1>
             Prezentacja właściwości <span>position:relative</span>
-        </h1>
+        </h1> two
         <p>
-            W tym przypadku elementy są przesuwane z miesjca, któe normalnie by zajmowały. Wartość <span>relative</span> ustawia element z przesunięciem względem jego normalnego położenia 
+            W tym przypadku elementy są przesuwane z mie threesjca, któe normalnie by zajmowały. Wartość <span>relative</span> ustawia element z przesunięciem względem jego normalnego położenia 
         </p>
         <p class="offset">
             Ten akapit został przunięty o 10 pikseli od góry i 30 pikseli od lewej
@@ -43,22 +44,22 @@
             Zmiany nie wpływają na położenie sąsiednich elementów - te pozostają wyświetlone w tych samych miejscach, w których zostały umieszczone przy wykorzystaniu rozkładu normalnego
         </p>
 
-        <div>
+        <div class="basic one">
             Element 1
         </div>
-        <div>
+        <div class="basic two offset">
             Element 2
         </div>
-        <div>
+        <div class="basic three">
             Element 3
         </div>
         
     </div>
 
-    <div>
-        ABSOLUT - został wyjęty z normalnego przepływu, nie wpływa na położenie innych elementów, jest jakby nad nimi; przesuwa się w trakcie przesuwania strony
+    <div id="absolute">
+        ABSOLUTE - został wyjęty z normalnego przepływu, nie wpływa na położenie innych elementów, jest jakby nad nimi; przesuwa się w trakcie przesuwania strony
     </div>
-    <div>
+    <div id="fixed">
         FIXED - właściwość umiejscawia element w sposób bezwzględny w stosunku do strony. Do określenia miejsca używane są właściwości przesunięcia. Pozostałe elementy są rozmieszczone zgodnie z rozkładem normalnym i całkowicie ignorują miesjce zajmowane przez element o wartości fixed, wchodząc niejako pod niego
     </div>
     <div>
