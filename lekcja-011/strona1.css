@@ -36,14 +36,21 @@ button {
 }
 
 #left {
-    max-width: 26%;
+    max-width: 35%;
 }
 
 #right {
-    max-width: 26%;
+    max-width: 28%;
 }
 
 #middle {
-    max-width: 40%;
+    max-width: 28%;
 }
 
+.atributes {
+    text-indent: 30px;
+}
+
+.tab {
+    padding-left: 20px;
+}
