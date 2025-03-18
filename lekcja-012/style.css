@@ -6,13 +6,15 @@ body {
 header {
     width: 100%;
     background-color: #466995;
-    border-bottom: 2px solid #466995;
+    /* border-bottom: 2px solid #466995; */
+    font-family: 'Oswald', sans-serif;
 }
 
 ul {
     margin: 0 30px;
     padding: 20px;
     text-align: center;
+    border-bottom: 2px solid #466995;
     /* background-color: #466995; */
 }
 
@@ -24,33 +26,96 @@ li {
     text-transform: uppercase;
     width: 80px;
     display: inline-block;
+    padding: 2px;
 }
 
 li:hover {
     background-color: #dbe9ee;
+    padding: 2px;
+    border-radius: 10px;
 }
 
 .naglowek {
     font-size: xx-large;
+    font-weight: 300;    
 }
 
-.naglowek, .pytaniaNumber, .trescPytania {
+.pytaniaNumber, .trescPytania {
     font-weight: bold;
 }
 
-.naglowek, .pytaniaNumber, .trescPytania, p {
+.naglowek, .pytaniaNumber, .trescPytania {
     margin:auto;
 }
 
-.naglowek:hover, .pytaniaNumber:hover, .trescPytania:hover, p:hover {
+.pytaniaNumber:hover, .trescPytania:hover {
     color: darkgray;
 }
 
 .H2 {
-    color: #dbe9ee;
     box-sizing: border-box;
-    /*  */
-    width: 100%;
+    /* position: relative;
+    top: 15px; */
     text-align: center;
-    /* background-color: #e0ecec; */
+    background-color: #DBE9EE;
+    color: black;
+    padding: 25px;
+}
+.h21 {
+    font-weight: 300;
+    font-family: "Varela Round";
+    color: #333;
+    font-size: 18px;
+}
+
+.naglowek {
+    color: #466995;
+}
+
+.pytania {
+    display: inline-block;
+}
+
+.pytania h2 {
+    font-family: "Varela Round";
+    color: #333;
+    font-size: 26px;
+    font-weight: 100;
+    margin: 0px auto 20px auto;
+}
+
+.pytania h4 {
+    font-family: "Oswald";
+    color: #466995;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.odp h3 {
+    font-family: "Oswald";
+    color: #466995;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+}
+
+.odp {
+    border: 1px solid #466995;
+    margin: 20px;
+    display: inline-block;
+    min-width: 25%;
+}
+
+.odp:hover {
+    background-color: #c0d6df;
+    color: #fff;
+}
+
+form {
+    text-align: center;
 }
