@@ -1,20 +1,19 @@
 body {
-    margin: 0px;
-    text-align: center;
+    margin: 0px auto;
     background-color: #fff;
 }
 
 header {
     width: 100%;
     background-color: #466995;
-    border-bottom-color: 2px solid #466995;
+    border-bottom: 2px solid #466995;
 }
 
 ul {
-    margin-left: 30px auto;
-    margin-right: 30px auto;
-    padding: 0 20px;
+    margin: 0 30px;
+    padding: 20px;
     text-align: center;
+    /* background-color: #466995; */
 }
 
 li {
@@ -24,8 +23,34 @@ li {
     font-weight: 300;
     text-transform: uppercase;
     width: 80px;
+    display: inline-block;
 }
 
 li:hover {
     background-color: #dbe9ee;
+}
+
+.naglowek {
+    font-size: xx-large;
+}
+
+.naglowek, .pytaniaNumber, .trescPytania {
+    font-weight: bold;
+}
+
+.naglowek, .pytaniaNumber, .trescPytania, p {
+    margin:auto;
+}
+
+.naglowek:hover, .pytaniaNumber:hover, .trescPytania:hover, p:hover {
+    color: darkgray;
+}
+
+.H2 {
+    color: #dbe9ee;
+    box-sizing: border-box;
+    /*  */
+    width: 100%;
+    text-align: center;
+    /* background-color: #e0ecec; */
 }
