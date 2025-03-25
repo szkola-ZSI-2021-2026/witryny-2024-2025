@@ -1,0 +1,53 @@
+.asr {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.asr > div, .stickys > div{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.static {
+    background-color: red;
+    position: static;
+}
+
+.absolute {
+    background-color: green;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+
+.relative {
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    left: 650px;
+}
+
+.fixed {
+    background-color: yellow;
+    position:fixed;
+    top: 50px;
+    left: 150px;
+}
+
+.stickys {
+    margin-top: 50px;
+}
+
+.sticky {
+    background-color: orange;
+    position: sticky;
+    top: 500px;
+}

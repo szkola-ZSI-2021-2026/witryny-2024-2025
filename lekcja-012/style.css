@@ -8,14 +8,18 @@ header {
     background-color: #466995;
     /* border-bottom: 2px solid #466995; */
     font-family: 'Oswald', sans-serif;
+    /* position: fixed;
+    z-index: 10; */
 }
 
 ul {
-    margin: 0 30px;
+    width: 100%;
+    /* margin: 0 30px; */
+    margin-top: 0px;
     padding: 20px;
     text-align: center;
     border-bottom: 2px solid #466995;
-    /* background-color: #466995; */
+    background-color: #466995;
 }
 
 li {
@@ -37,7 +41,7 @@ li:hover {
 
 .naglowek {
     font-size: xx-large;
-    font-weight: 300;    
+    font-weight: 300;
 }
 
 .pytaniaNumber, .trescPytania {
@@ -54,12 +58,12 @@ li:hover {
 
 .H2 {
     box-sizing: border-box;
-    /* position: relative;
-    top: 15px; */
     text-align: center;
     background-color: #DBE9EE;
     color: black;
     padding: 25px;
+    position: relative;
+    top: 70px;
 }
 .h21 {
     font-weight: 300;
@@ -75,6 +79,8 @@ li:hover {
 .pytania {
     display: inline-block;
     min-width: 90%;
+    position: sticky;
+    top:100px;
 }
 
 .pytania h2 {
@@ -117,6 +123,15 @@ li:hover {
     color: #fff;
 }
 
+#nav {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    margin: 0px;
+}
+
 form {
     text-align: center;
+    position: relative;
+    top:50px;
 }
