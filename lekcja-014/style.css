@@ -1,0 +1,25 @@
+body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: rgb(20, 20, 21);
+    border: 1px solid grey;
+}
+
+.wyroznione1 {
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    text-shadow: 1px 1px grey;
+}
+
+p {
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    /* text-decoration-line: underline; */
+    border-bottom: 5px solid lightgray;
+}
