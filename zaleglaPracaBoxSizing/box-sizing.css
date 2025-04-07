@@ -1,0 +1,50 @@
+body {
+    background-color: #e7ecef;
+    text-align: center;
+}
+
+.forCenter {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    background-color: #274c77;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+}
+
+.parent > h3 {
+    color: lightgray;
+    letter-spacing: 2px;
+}
+
+.childBB, .childCB {
+    background-color: #6096ba;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border: 5px solid #8b8c89;
+}
+
+.childBB {
+    box-sizing: border-box;
+}
+
+.childCB {
+    box-sizing: content-box;
+}
+
+.area {
+    float: left;
+    margin: auto;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.description {
+    width: 500px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-sizing</title>
+    <link rel="stylesheet" href="box-sizing.css">
+</head>
+<body>
+    <h1>
+        box sizing
+    </h1>
+    <br>
+    <div class="forCenter">
+    <!-- CONTENT BOX -->
+        <div class="area">
+            <h1>content box</h1>
+            <div class="parent">
+                <br>
+                <h3>
+                    Kontener rodzic
+                </h3>
+                <br>
+                <div class="childCB">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sed iure nisi fuga laborum neque, obcaecati sint quos fugit voluptate, ducimus, consectetur vero laudantium quibusdam dolores vel aperiam est mollitia.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae maxime quos, voluptate neque atque explicabo cupiditate.
+                </div>
+            </div>
+            
+            <br>
+            <hr>
+            <br>
+
+            <div class="description">
+                Określa, że właściwości width i height odnoszą się tylko do obszaru zawartości elementu. Obramowanie i wewnętrzne marginesy są dodawane na zewnątrz tego obszaru, zwiększając całkowity rozmiar elementu.
+            </div>
+        </div>
+
+    <!-- BORDER BOX -->
+        <div class="area">
+            <h1>border box</h1>
+            <div class="parent">
+                <br>
+                <h3>
+                    Kontener rodzic
+                </h3>
+                <br>
+                <div class="childBB">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptate accusamus suscipit assumenda fugit a minima, minus soluta incidunt aut unde ex temporibus ipsam mollitia ab labore voluptatum corporis? Aspernatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestiae accusantium et quam vel! Voluptate soluta voluptatibus nemo sequi maxime quidem similique! Suscipit ad quos magni. Consequuntur, quam aliquid? Nemo.
+                </div>
+            </div>
+            
+            <br>
+            <hr>
+            <br>
+
+            <div class="description">
+                Określa, że właściwości width i height odnoszą się do całkowitego obszaru elementu, wliczając w to zawartość, wewnętrzne marginesy i obramowanie. Jeśli ustawisz szerokość i wysokość, to ten rozmiar obejmuje już wszystkie te części.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
