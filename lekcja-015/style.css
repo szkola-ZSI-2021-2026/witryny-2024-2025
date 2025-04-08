@@ -1,0 +1,9 @@
+.d1 {
+    column-count: 3;
+    column-gap: 15px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
