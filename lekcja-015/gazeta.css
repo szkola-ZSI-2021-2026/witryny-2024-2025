@@ -1,10 +1,9 @@
 body {
-    background-color: bisque;
-    padding: 25px;
-    max-width: 1000px;
+    padding: 0px;
+    margin: 0px;
 }
 
-header {
+header, .gazetaFooter {
     text-align: center;
     background-color: rgb(255, 207, 136);
     padding: 10px;
@@ -14,6 +13,9 @@ header {
     position: sticky;
     top: 35px;
 }
+header:hover,.d1:hover, .gazetaFooter:hover {
+    border-color: brown;
+}
 
 .d1 {
     column-count: 3;
@@ -22,7 +24,8 @@ header {
     background-color: rgb(255, 207, 136);
     padding: 20px;
     border-radius: 10px;
-    margin: 50px 20px;
+    margin: 50px auto;
+    margin-bottom: 150px;
     border: 1px dashed orange;
 
     position: sticky;
@@ -50,4 +53,24 @@ img:hover {
 
 .articleFooter {
     text-align: right;
+}
+
+.gazeta {
+    position: static;
+    background-color: bisque;
+    padding: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.reklamy {
+    width: 100%;
+}
+
+.reklamy > a {
+    width: 30%;
+}
+
+.reklamy > a > img {
+    width: 30%;
 }
